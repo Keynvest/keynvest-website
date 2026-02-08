@@ -1,0 +1,25 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <img src="/images/keynvest-logo.svg" alt="" style="width:28px; height:28px; opacity:.95;" />
+          <strong style="color:var(--text)">Keynvest LLC</strong>
+        </div>
+        <small>Las Vegas-based real estate investment company focused on disciplined underwriting and long-term value.</small>
+      </div>
+
+      <div>
+        <div style="color:var(--text); font-weight:700; margin-bottom:8px;">Contact</div>
+        <div>Email: <a href="mailto:info@keynvest.com">info@keynvest.com</a></div>
+        <div style="margin-top:8px;">Las Vegas, NV</div>
+      </div>
+    </div>
+
+    <small style="margin-top:18px;">© <span id="y"></span> Keynvest LLC. All rights reserved.</small>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</footer>

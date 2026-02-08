@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Keynvest LLC</title>
+  <meta name="description" content="Contact Keynvest LLC in Las Vegas." />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="container">
+      <div class="card list">
+        <h1 style="margin:0 0 10px;">Contact</h1>
+        <p style="margin:0; color:var(--muted);">
+          Send opportunities, questions, or partnership inquiries. We’ll respond as quickly as possible.
+        </p>
+
+        <div class="split" style="margin-top:16px;">
+          <form class="card form" action="mailto:info@keynvest.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input id="name" name="name" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@company.com" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about the property or your question…" required></textarea>
+
+            <div style="margin-top:14px;">
+              <button class="btn primary" type="submit">Send</button>
+              <a class="btn ghost" href="mailto:info@keynvest.com" style="margin-left:10px;">Email directly</a>
+            </div>
+
+            <div class="note">
+              Tip: For a more reliable form (without mailto), you can add Cloudflare Pages Functions later.
+            </div>
+          </form>
+
+          <div class="card list">
+            <h3 style="margin:0 0 6px;">Keynvest LLC</h3>
+            <div style="color:var(--muted);">
+              Las Vegas, NV<br />
+              Email: <a href="mailto:info@keynvest.com">info@keynvest.com</a>
+            </div>
+
+            <div class="card" style="padding:16px; margin-top:14px;">
+              <strong>What to include in a deal email</strong>
+              <ul>
+                <li>Property address</li>
+                <li>Asking price</li>
+                <li>Photos / basic condition notes</li>
+                <li>Occupancy / rent roll (if applicable)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="/js/include.js"></script>
+</body>
+</html>
