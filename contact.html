@@ -4,8 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Contact | Keynvest LLC</title>
-  <meta name="description" content="Contact Keynvest LLC in Las Vegas." />
+  <meta name="description" content="Contact Keynvest LLC (Las Vegas). Submit deals, partnership inquiries, and questions." />
   <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
+
+<meta name="theme-color" content="#0b0f14" />
 </head>
 <body>
   <div id="site-header"></div>
@@ -14,8 +17,8 @@
     <div class="container">
       <div class="card list">
         <h1 style="margin:0 0 10px;">Contact</h1>
-        <p style="margin:0; color:var(--muted);">
-          Send opportunities, questions, or partnership inquiries. We’ll respond as quickly as possible.
+        <p class="lead">
+          Submit opportunities, questions, or partnership inquiries. The fastest way is email, but you can also use the form below.
         </p>
 
         <div class="split" style="margin-top:16px;">
@@ -27,7 +30,7 @@
             <input id="email" name="email" type="email" placeholder="you@company.com" required />
 
             <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Tell us about the property or your question…" required></textarea>
+            <textarea id="message" name="message" placeholder="Share the address, asking price, and any photos/rent info…" required></textarea>
 
             <div style="margin-top:14px;">
               <button class="btn primary" type="submit">Send</button>
@@ -35,7 +38,8 @@
             </div>
 
             <div class="note">
-              Tip: For a more reliable form (without mailto), you can add Cloudflare Pages Functions later.
+              Note: This form uses <em>mailto</em> (opens your email client). If you want a true web form,
+              we can add a Cloudflare Pages Function for submissions.
             </div>
           </form>
 
@@ -53,7 +57,23 @@
                 <li>Asking price</li>
                 <li>Photos / basic condition notes</li>
                 <li>Occupancy / rent roll (if applicable)</li>
+                <li>Preferred timeline + access details</li>
               </ul>
+            </div>
+
+            <div class="faq">
+              <details class="faq-item">
+                <summary>Do you only buy in Las Vegas?</summary>
+                <p>Our primary focus is Las Vegas. If it’s nearby and compelling, we’ll review it.</p>
+              </details>
+              <details class="faq-item">
+                <summary>What’s the best first step?</summary>
+                <p>Send the address and asking price with photos. If it’s multifamily, include a rent roll if available.</p>
+              </details>
+              <details class="faq-item">
+                <summary>How fast can you close?</summary>
+                <p>It depends on the deal and access. If the path is clear, we can move quickly with straightforward terms.</p>
+              </details>
             </div>
           </div>
         </div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Keynvest favicon">
+  <defs>
+    <linearGradient id="kvG" x1="18" y1="16" x2="110" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7B56D"/>
+      <stop offset="1" stop-color="#6DD7C5"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="30" fill="rgba(255,255,255,0.04)" stroke="rgba(233,238,246,0.22)" stroke-width="2"/>
+  <path d="M30 56L64 32L98 56" stroke="rgba(215,181,109,0.9)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 44c-14.4 0-26 11.6-26 26 0 11.4 7.2 21.2 17.6 24.8V106h16.8V94.8C82.8 91.2 90 81.4 90 70c0-14.4-11.6-26-26-26Z"
+        stroke="url(#kvG)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

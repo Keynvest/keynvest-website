@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Keynvest logo">
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Keynvest LLC logo">
   <defs>
-    <linearGradient id="g" x1="40" y1="30" x2="210" y2="226" gradientUnits="userSpaceOnUse">
+    <linearGradient id="kvG" x1="92" y1="72" x2="420" y2="460" gradientUnits="userSpaceOnUse">
       <stop stop-color="#D7B56D"/>
       <stop offset="1" stop-color="#6DD7C5"/>
     </linearGradient>
+    <filter id="kvShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/>
+    </filter>
   </defs>
 
-  <!-- Badge -->
-  <rect x="20" y="20" width="216" height="216" rx="56" fill="rgba(255,255,255,0.04)" stroke="rgba(233,238,246,0.18)" stroke-width="2"/>
+  <g transform="translate(0,0)">
+    <rect x="34" y="34" width="352" height="352" rx="96"
+          fill="rgba(255,255,255,0.04)" stroke="rgba(233,238,246,0.18)" stroke-width="4"
+          filter="url(#kvShadow)"/>
+    <path d="M104 204L210 126L316 204" stroke="rgba(215,181,109,0.85)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M210 164c-40.9 0-74 33.1-74 74 0 33 21.5 60.9 51.3 70.7V338h45.4v-29.3c29.8-9.8 51.3-37.7 51.3-70.7 0-40.9-33.1-74-74-74Z"
+          stroke="url(#kvG)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M210 164v-36" stroke="url(#kvG)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M142 338v-46M176 338v-70M210 338v-58M244 338v-84M278 338v-52"
+          stroke="rgba(233,238,246,0.42)" stroke-width="16" stroke-linecap="round"/>
+  </g>
 
-  <!-- Key + roof mark -->
-  <path d="M88 128c0-22.1 17.9-40 40-40s40 17.9 40 40c0 19.2-13.5 35.2-31.5 39v17h-17v-17c-18-3.8-31.5-19.8-31.5-39Z" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M128 88V66" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
-  <path d="M110 168l-22 18" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
-  <path d="M146 168l22 18" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
-
-  <!-- Simple roof line -->
-  <path d="M74 122l54-38 54 38" stroke="rgba(215,181,109,0.65)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Las Vegas-ish skyline bars -->
-  <path d="M86 196v-22M110 196v-34M128 196v-28M146 196v-40M170 196v-26" stroke="rgba(233,238,246,0.35)" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(430,120)">
+    <text x="0" y="86" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="92" font-weight="860" fill="#E9EEF6" letter-spacing="0.5">
+      Keynvest
+    </text>
+    <text x="520" y="86" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="44" font-weight="800" fill="rgba(233,238,246,0.70)" letter-spacing="2">
+      LLC
+    </text>
+    <rect x="0" y="112" width="820" height="4" rx="2" fill="rgba(233,238,246,0.14)"/>
+    <text x="0" y="162" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="36" font-weight="700" fill="rgba(183,194,211,0.95)" letter-spacing="1">
+      Las Vegas • Real Estate Investing
+    </text>
+  </g>
 </svg>
