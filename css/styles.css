@@ -64,7 +64,7 @@ header.site{
 }
 .navbar{
   display:flex; align-items:center; justify-content:space-between;
-  padding:14px 0;
+  padding:18px 0;
 }
 .brand{
   display:flex; align-items:center; gap:12px;
@@ -203,9 +203,9 @@ nav.links a[aria-current="page"]{
 
 
 /* --- Logo sizing + helpers --- */
-.logo-mark{width:44px;height:44px}
-.logo-lockup{height:56px;width:auto;display:block}
-@media (max-width:520px){ .logo-lockup{height:56px;width:auto;display:block} }
+.logo-mark{width:56px;height:56px}
+.logo-lockup{height:92px;width:auto;display:block;max-width:380px}
+@media (max-width:520px){ .logo-lockup{height:72px;max-width:300px} } }
 
 /* --- Typography --- */
 h2{font-size: clamp(22px, 2.4vw, 30px); margin:0 0 10px}
