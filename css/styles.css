@@ -62,10 +62,7 @@ header.site{
   background: rgba(11,15,20,.7);
   border-bottom:1px solid var(--line);
 }
-.navbar{
-  display:flex; align-items:center; justify-content:space-between;
-  padding:18px 0;
-}
+.navbar{display:flex; align-items:center; justify-content:space-between; gap:18px; padding:18px 0; flex-wrap:wrap}
 .brand{
   display:flex; align-items:center; gap:12px;
   font-weight:800; letter-spacing:.2px;
@@ -203,9 +200,9 @@ nav.links a[aria-current="page"]{
 
 
 /* --- Logo sizing + helpers --- */
-.logo-mark{width:56px;height:56px}
-.logo-lockup{height:92px;width:auto;display:block;max-width:380px}
-@media (max-width:520px){ .logo-lockup{height:72px;max-width:300px} } }
+.logo-mark{width:84px;height:84px}
+.logo-lockup{height:120px;width:auto;display:block;max-width:520px}
+@media (max-width:520px){ .logo-lockup{height:96px;max-width:420px} nav.links a{padding:8px 10px} } } }
 
 /* --- Typography --- */
 h2{font-size: clamp(22px, 2.4vw, 30px); margin:0 0 10px}
