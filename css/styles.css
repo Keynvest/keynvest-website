@@ -271,3 +271,74 @@ details.faq-item summary{
   cursor:pointer; font-weight:800; color:var(--text);
 }
 details.faq-item p{color:var(--muted); margin:10px 0 0}
+
+
+/* --- Brand bar header layout --- */
+header.site.brandbar{
+  position:sticky;
+  top:0;
+  z-index:50;
+  backdrop-filter: blur(10px);
+  background: rgba(11,15,20,.78);
+  border-bottom:1px solid var(--line);
+}
+
+.brandbar-top{
+  display:flex;
+  justify-content:center;
+  padding:18px 0 8px;
+}
+
+.brandbar-top .brand{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+}
+
+.brandbar-bottom{
+  display:flex;
+  justify-content:center;
+  padding:8px 0 14px;
+}
+
+.brandbar-bottom nav.links{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:6px;
+  border:1px solid rgba(233,238,246,.10);
+  background: rgba(255,255,255,.03);
+  border-radius: 999px;
+}
+
+.brandbar-bottom nav.links a{
+  padding:10px 14px;
+  border-radius: 999px;
+  color: var(--muted);
+}
+
+.brandbar-bottom nav.links a[aria-current="page"]{
+  color: var(--text);
+  border:1px solid rgba(215,181,109,.45);
+  background: rgba(215,181,109,.12);
+}
+
+.logo-lockup{
+  height:140px;
+  width:auto;
+  display:block;
+  max-width: 680px;
+}
+
+@media (max-width:900px){
+  .logo-lockup{height:120px; max-width:520px}
+}
+
+@media (max-width:520px){
+  .logo-lockup{height:96px; max-width:420px}
+  .brandbar-bottom nav.links a{padding:8px 12px}
+}
+
