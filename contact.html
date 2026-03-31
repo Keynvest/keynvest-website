@@ -4,116 +4,97 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Contact | Keynvest LLC</title>
-  <meta name="description" content="Contact Keynvest LLC (Las Vegas). Submit deals, partnership inquiries, and questions." />
+  <meta name="description" content="Contact Keynvest LLC in Las Vegas. Submit deals, partnership inquiries, and questions." />
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="icon" href="/images/favicon.png" type="image/png" />
-
-<meta name="theme-color" content="#0b0f14" />
-  <!-- Open Graph / Social -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Keynvest LLC" />
+  <meta name="theme-color" content="#0e0e0e" />
   <meta property="og:title" content="Contact | Keynvest LLC" />
-  <meta property="og:description" content="Contact Keynvest LLC (Las Vegas). Submit deals, partnership inquiries, and questions." />
   <meta property="og:image" content="/images/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact | Keynvest LLC" />
-  <meta name="twitter:description" content="Contact Keynvest LLC (Las Vegas). Submit deals, partnership inquiries, and questions." />
-  <meta name="twitter:image" content="/images/og-image.png" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGB95QHBRR"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-QGB95QHBRR');
-  </script>
-
-  <!-- Canonical -->
   <link rel="canonical" href="https://www.keynvest.com/contact.html" />
-
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "name": "Contact Keynvest LLC",
-    "description": "Contact Keynvest LLC in Las Vegas. Submit deals, partnership inquiries, and questions.",
-    "url": "https://www.keynvest.com/contact.html",
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "Keynvest LLC",
-      "email": "info@keynvest.com",
-      "url": "https://www.keynvest.com"
-    }
-  }
-  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGB95QHBRR"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-QGB95QHBRR');</script>
 </head>
 <body>
   <div id="site-header"></div>
 
-  <main class="section">
+  <!-- HERO -->
+  <section class="section section-dark" style="padding:100px 0 80px;">
     <div class="container">
-      <div class="card list">
-        <h1 style="margin:0 0 10px;">Contact</h1>
-        <p class="lead">
-          Submit opportunities, questions, or partnership inquiries. The fastest way is email, but you can also use the form below.
-        </p>
+      <div class="section-label">Get in touch</div>
+      <h2 style="font-size:clamp(60px,7vw,96px); line-height:.9; margin-bottom:24px;">Let's talk<br><em style="font-style:normal;color:var(--gold-lt)">real estate.</em></h2>
+      <p class="section-lead" style="max-width:540px;">
+        Submit opportunities, questions, or partnership inquiries. The fastest way is email — or use the form below.
+      </p>
+    </div>
+  </section>
 
-        <div class="split" style="margin-top:16px;">
-          <form class="card form" action="mailto:info@keynvest.com" method="post" enctype="text/plain">
-            <label for="name">Name</label>
-            <input id="name" name="name" placeholder="Your name" required />
+  <!-- FORM + ASIDE -->
+  <section class="section">
+    <div class="container">
+      <div class="form-wrap">
 
-            <label for="email">Email</label>
+        <!-- FORM -->
+        <div>
+          <div class="section-label">Send a message</div>
+          <h2 style="margin-bottom:36px;">Submit a deal<br>or inquiry.</h2>
+          <form class="form" action="mailto:info@keynvest.com" method="post" enctype="text/plain">
+            <label for="name">Your name</label>
+            <input id="name" name="name" placeholder="Full name" required />
+
+            <label for="email">Email address</label>
             <input id="email" name="email" type="email" placeholder="you@company.com" required />
 
             <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Share the address, asking price, and any photos/rent info…" required></textarea>
+            <textarea id="message" name="message" placeholder="Property address, asking price, condition, any photos or rent roll…" required></textarea>
 
-            <div style="margin-top:14px;">
-              <button class="btn primary" type="submit">Send</button>
-              <a class="btn ghost" href="mailto:info@keynvest.com" style="margin-left:10px;">Email directly</a>
-            </div>
-
-            <div class="note">
-              Note: This form uses <em>mailto</em> (opens your email client). If you want a true web form,
-              we can add a Cloudflare Pages Function for submissions.
-            </div>
+            <button class="btn primary" type="submit">Send Message</button>
+            <p class="form-note" style="margin-top:16px;">This form opens your email client via mailto. For a hosted web form, a Cloudflare Pages Function can be added.</p>
           </form>
+        </div>
 
-          <div class="card list">
-            <h3 style="margin:0 0 6px;">Keynvest LLC</h3>
-            <div style="color:var(--muted);">
-              Las Vegas, NV<br />
-              Email: <a href="mailto:info@keynvest.com">info@keynvest.com</a>
-            </div>
+        <!-- ASIDE -->
+        <div class="contact-aside">
+          <div class="section-label">Contact info</div>
+          <h2 style="margin-bottom:32px;">Reach us<br>directly.</h2>
 
-            <div class="card" style="padding:16px; margin-top:14px;">
-              <strong>What to include in a deal email</strong>
-              <ul>
-                <li>Property address</li>
-                <li>Asking price</li>
-                <li>Photos / basic condition notes</li>
-                <li>Occupancy / rent roll (if applicable)</li>
-                <li>Preferred timeline + access details</li>
-              </ul>
-            </div>
+          <div class="contact-detail">
+            <strong>Email</strong>
+            <a href="mailto:info@keynvest.com" style="color:var(--gold);">info@keynvest.com</a>
+          </div>
+          <div class="contact-detail">
+            <strong>Location</strong>
+            Las Vegas, NV
+          </div>
+          <div class="contact-detail">
+            <strong>Response time</strong>
+            Typically within 24–48 hours
+          </div>
 
+          <div style="margin-top:40px;">
+            <div style="font-family:var(--bebas); font-size:13px; letter-spacing:.15em; color:var(--muted); margin-bottom:20px;">What to include in a deal email</div>
+            <ul style="list-style:none; color:var(--muted); font-size:.93rem; line-height:2.2;">
+              <li>— Property address</li>
+              <li>— Asking price</li>
+              <li>— Photos / basic condition notes</li>
+              <li>— Occupancy / rent roll (if applicable)</li>
+              <li>— Preferred timeline + access details</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:40px;">
+            <div style="font-family:var(--bebas); font-size:13px; letter-spacing:.15em; color:var(--muted); margin-bottom:4px;">FAQ</div>
             <div class="faq">
               <details class="faq-item">
                 <summary>Do you only buy in Las Vegas?</summary>
-                <p>Our primary focus is Las Vegas. If it’s nearby and compelling, we’ll review it.</p>
+                <p>Our primary focus is Las Vegas. If it's nearby and compelling, we'll review it.</p>
               </details>
               <details class="faq-item">
-                <summary>What’s the best first step?</summary>
-                <p>Send the address and asking price with photos. If it’s multifamily, include a rent roll if available.</p>
+                <summary>What's the best first step?</summary>
+                <p>Send the address and asking price with photos. Multifamily: include rent roll if available.</p>
               </details>
               <details class="faq-item">
                 <summary>How fast can you close?</summary>
-                <p>It depends on the deal and access. If the path is clear, we can move quickly with straightforward terms.</p>
+                <p>Depends on the deal and access. If the path is clear, we can move quickly with clean terms.</p>
               </details>
             </div>
           </div>
@@ -121,7 +102,7 @@
 
       </div>
     </div>
-  </main>
+  </section>
 
   <div id="site-footer"></div>
   <script src="/js/include.js"></script>
