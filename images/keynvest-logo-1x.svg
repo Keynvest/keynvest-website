@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 72" width="420" height="72">
+  <!-- Mark: gold square with dark K -->
+  <rect x="0" y="4" width="64" height="64" rx="6" fill="#C8A84B"/>
+  <!-- K vertical bar -->
+  <rect x="18" y="15" width="8" height="38" rx="2" fill="#0d1117"/>
+  <!-- K upper arm -->
+  <polygon points="26,36 46,15 46,24 32,37" fill="#0d1117"/>
+  <!-- K lower arm -->
+  <polygon points="26,36 46,57 38.5,57 26,41" fill="#0d1117"/>
+
+  <!-- Wordmark: KEY dark, NVEST gold -->
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" letter-spacing="1.5" y="46" x="82">
+    <tspan fill="#0d1117">KEY</tspan><tspan fill="#C8A84B">NVEST</tspan>
+  </text>
+  <!-- Subtitle -->
+  <text font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="500" letter-spacing="3.5" fill="#6b7a8d" x="82" y="62">REAL ESTATE · LAS VEGAS</text>
+</svg>
