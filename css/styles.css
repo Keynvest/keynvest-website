@@ -200,9 +200,8 @@ nav.links a[aria-current="page"]{
 
 
 /* --- Logo sizing + helpers --- */
-.logo-mark{width:84px;height:84px}
-.logo-lockup{height:120px;width:auto;display:block;max-width:520px}
-@media (max-width:520px){ .logo-lockup{height:96px;max-width:420px} nav.links a{padding:8px 10px} } } }
+.logo-mark{width:52px;height:52px}
+.logo-lockup{height:52px;width:auto;display:block}
 
 /* --- Typography --- */
 h2{font-size: clamp(22px, 2.4vw, 30px); margin:0 0 10px}
@@ -294,10 +293,9 @@ header.site.brandbar{
 .brandbar-row .brand{display:flex; align-items:center}
 
 .logo-lockup{
-  height:240px !important;
-  width:auto !important;
+  height:52px;
+  width:auto;
   display:block;
-  max-width:none !important;
 }
 
 nav.links{
@@ -325,19 +323,17 @@ nav.links a[aria-current="page"]{
 }
 
 .logo-mark{
-  width:140px !important;
-  height:140px !important;
+  width:52px;
+  height:52px;
 }
 
 @media (max-width: 900px){
   .brandbar-row{flex-direction:column; align-items:flex-start; gap:12px}
   nav.links{width:100%; justify-content:flex-start}
-  .logo-lockup{height:200px !important}
 }
 
 @media (max-width:520px){
-  .logo-lockup{height:160px !important}
+  .logo-lockup{height:44px}
   nav.links a{padding:10px 14px}
-  .logo-mark{width:110px !important;height:110px !important}
 }
 
